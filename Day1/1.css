@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.changeBtn {
+    width: 95px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(158, 158, 158);
+    border: 1px solid rgb(158, 158, 158);
+    outline: none;
+}
+.changeBtn:hover {
+    cursor: pointer;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    border: none;
+}
