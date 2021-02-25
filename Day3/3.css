@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 14, 102);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(255, 178, 36);
+    color: white;
+
+}
+
+.wiseSayingContainer {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.wiseSayingContainer {
+    background-color: white;
+    opacity: 0.8;
+}
+
+.wiseSaying {
+    font-size: 20px;
+}
+
+.authorName {
+    margin-top: 30px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 178, 36); 
+}
