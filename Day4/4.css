@@ -1,0 +1,66 @@
+body {
+    background-color: #95B8D1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+    color: #95B8D1;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+input {
+    margin-bottom: 20px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+button {
+    max-width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #95B8D1;
+    font-size: 20px;
+    color: white;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.msgBox {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    width: 600px;
+    height: 400px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msgBox * {
+    width: 90%;
+}
+
+
+.message {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
